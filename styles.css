@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 50vw;
+
+    height: 150vh;
+
+    float: right;
+}
+
+.triangle {
+    position: absolute;
+    top: 30;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 50vh solid transparent;
+    /* Adjust the size as needed */
+    border-right: 50vw solid pink;
+    /* Adjust the size and color as needed */
+}
+
+.image {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 50%;
+    height: auto;
+    top: 0;
+    float: right;
+    right: 0;
+
+}
+
+.hd-logo {
+    width: 4%;
+    padding: 30px;
+    height: auto;
+}
+
+.header-flx {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.index-menu {
+    position: absolute;
+    float: right;
+}
+
+.header {
+    position: relative;
+}
+
+.header .div {
+    float: right;
+    top: 30;
+}
