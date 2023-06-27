@@ -1,0 +1,121 @@
+:root {
+    --lilac: rgb(201, 180, 187);
+    --pinky: rgb(227, 140, 149);
+    --lightgrey: rgb(144, 144, 144);
+    --marigold: rgb(245, 222, 178);
+    --darkgrey: rgb(112, 112, 112);
+    --mint: rgb(193, 207, 148);
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 146px;
+
+
+
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 50vw;
+
+    height: 150vh;
+
+    float: right;
+}
+
+.triangle {
+    position: absolute;
+    top: 30;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 50vh solid transparent;
+    /* Adjust the size as needed */
+    border-right: 50vw solid var(--pinky);
+    /* Adjust the size and color as needed */
+}
+
+.image {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 50%;
+    height: auto;
+    top: 0;
+    float: right;
+    right: 0;
+
+}
+
+.hd-logo {
+    width: 4%;
+    padding: 30px;
+    height: auto;
+}
+
+.header-flx {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.index-menu {
+    position: absolute;
+    float: right;
+}
+
+.header-mb {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .div {
+    float: right;
+    top: 30;
+}
+
+.hd-item {
+    padding: 5%;
+    font-size: 30px;
+}
+
+.titledv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.br {
+    color: var(--pinky);
+}
+
+.ecipes {
+    color: var(--lightgrey);
+}
+
+.tagline {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+}
+
+.copy {
+    font-size: 47px;
+    padding: 20;
+}
+

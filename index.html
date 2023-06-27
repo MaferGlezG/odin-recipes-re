@@ -1,36 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <title>BRECIPES</title>
+    <!--Styles.-->
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--fonts.-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+
     <header class="header-mb">
-        <img class="hd-logo" src="./public/images/logo.png" alt="logo">
+        <img class=" hd-logo" src="./public/images/logo.png" alt="logo">
         <div class="header-flx">
-            <p class="hd-item">Menu</p>
-            <p class="hd-item">Hangover cure</p>
-            <p class="hd-item">Gourmet</p>
-            <p class="hd-item">Energizing</p>
-            <p class="hd-item">About</p>
-            <p class="hd-item">Contact</p>
+            <a href="#" class="hd-item">Menu</a>
+            <a href="./hc-section.html" class="hd-item">Hangover cure</a>
+            <a href="./g-section.html" class="hd-item">Gourmet</a>
+            <a href="./e-section.html" class="hd-item">Energizing</a>
+            <a href="#about" class="hd-item">About</a>
+            <a href="#contact" class="hd-item">Contact</a>
         </div>
     </header>
+
     <div class="titledv">
         <h1 class="br">BR</h1>
         <h1 class="ecipes">ECIPES</h1>
+
     </div>
-    
-    <h3>For all your breakfast-and-brunch recipe needs.</h3>
-    <p>Start your day off right with our delightful breakfast recipes that are sure to satisfy your cravings and
+
+    <p class="tagline">For all your breakfast-and-brunch recipe needs.</p>
+    <p class="ind-copy">Start your day off right with our delightful breakfast recipes that are sure to satisfy your
+        cravings and
         energize you for the day ahead. </p>
     <div class="triangle"></div>
-    <img class="image" src="./public/images/index/pancakes.png" alt="Plate of pancakes">
+    <img class="pancakes" src="./public/images/index/pancakes.png" alt="Plate of pancakes">
+
+    <h1 class="sp-tag">What are you looking for?</h1>
+
+    <div class="sections">
+        <a href="./hc-section.html">
+            <div class="hang-link">
+                <div class="hc-circle"></div>
+                <p class="hc-title">Hangover cure</p>
+                <img class="hc-img" src="./public/images/index/full-english.png"
+                    alt="Full english breakfast in a plate">
+            </div>
+        </a>
+
+        <a href="./e-section.html">
+            <div class="e-link">
+                <div class="e-circle"></div>
+                <p class="e-title">Energizing</p>
+                <img class="e-img" src="./public/images/index/fruit.png" alt="Plate of ruit and orange juice">
+            </div>
+        </a>
     </div>
 </body>
 

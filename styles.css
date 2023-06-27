@@ -1,110 +1,248 @@
-:root {
-    --lilac: rgb(201, 180, 187);
-    --pinky: rgb(227, 140, 149);
-    --lightgrey: rgb(144, 144, 144);
-    --marigold: rgb(245, 222, 178);
-    --darkgrey: rgb(112, 112, 112);
-    --mint: rgb(193, 207, 148);
+ /*:root {
+    Colors: 
+    --lilac: #C9B4BB;
+    --pinky: #E38C95;
+    --light-grey: #909090;
+    --marigold: #F5DEB2;
+    --dark-grey: #707070;
+    --green: #C1CF94;
+}*/
+ :root {
 
-}
+     /* Colors: */
+     --unnamed-color-c9b4bb: #C9B4BB;
+     --unnamed-color-e38c95: #E38C95;
+     --unnamed-color-909090: #909090;
+     --unnamed-color-f5deb2: #F5DEB2;
+     --unnamed-color-707070: #707070;
+     --unnamed-color-c1cf94: #C1CF94;
+ }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 146px;
+ .header-flx {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+
+ }
 
 
+ .header-mb {
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
 
-}
+ .hd-logo {
+     /* Layout Properties */
+     top: 173px;
+     left: 607px;
+     width: auto;
+     height: 85px;
+     /* UI Properties */
+     text-align: left;
+     font: normal normal bold 146px/169px Arial Rounded MT;
+     letter-spacing: 0px;
+     opacity: 1;
+ }
 
-p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+ .hd-item {
+     /* Layout Properties */
+     top: 39px;
+     left: 916px;
+     width: auto;
+     height: 18px;
+     /* UI Properties */
+     color: var(--unnamed-color-707070);
+     text-align: left;
+     font: normal normal normal 15px/18px Arboria;
+     letter-spacing: 0px;
+     color: #707070;
+     opacity: 1;
 
-body {
-    margin: 0;
-    padding: 0;
-}
+     padding: 5%;
+ }
 
-.container {
-    position: relative;
-    width: 50vw;
+ .titledv {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
 
-    height: 150vh;
+ }
 
-    float: right;
-}
+ .br {
+     /* Layout Properties */
+     top: 0px;
+     left: px;
+     width: 100px;
+     height: 85px;
+     /* UI Properties */
+     color: var(--unnamed-color-e38c95);
+     text-align: center;
+     font: normal normal bold 73px/85px Arial Rounded MT;
+     letter-spacing: 0px;
+     color: #E38C95;
+ }
 
-.triangle {
-    position: absolute;
-    top: 30;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-top: 50vh solid transparent;
-    /* Adjust the size as needed */
-    border-right: 50vw solid var(--pinky);
-    /* Adjust the size and color as needed */
-}
+ .ecipes {
+     /* Layout Properties */
+     top: 0px;
+     left: 210px;
+     width: 100px;
+     height: 85px;
+     /* UI Properties */
+     color: var(--unnamed-color-707070);
+     text-align: center;
+     font: normal normal bold 73px/85px Arial Rounded MT;
+     letter-spacing: 0px;
+     color: #707070;
+ }
 
-.image {
-    position: relative;
-    z-index: 1;
-    display: block;
-    width: 50%;
-    height: auto;
-    top: 0;
-    float: right;
-    right: 0;
+ .tagline {
+     /* Layout Properties */
+     top: 368px;
+     left: 135px;
+     width: 1210px;
+     height: 66px;
+     /* UI Properties */
+     color: var(--unnamed-color-707070);
+     text-align: left;
+     font: normal normal normal 27px/33px Arboria;
+     letter-spacing: 0px;
+     color: #707070;
+     opacity: 1;
+ }
 
-}
+ .ind-copy {
+     top: 480px;
+     left: 135px;
+     width: 605px;
+     height: 366px;
+     color: var(--unnamed-color-707070);
+     text-align: left;
+     font: normal normal normal 24px/26px Arboria;
+     letter-spacing: 0px;
+     color: #707070;
+     opacity: 1;
+ }
 
-.hd-logo {
-    width: 4%;
-    padding: 30px;
-    height: auto;
-}
+ .pancakes {
+     top: -10px;
+     left: 539px;
+     width: 810px;
+     height: auto;
+     background: transparent url('img/pancakes.png') 0% 0% no-repeat padding-box;
+     opacity: 1;
+     position: absolute;
+     border-top: 50vh solid transparent;
+     /* Adjust the size as needed */
+     border-right: 50vw solid var(--pinky);
+     /* Adjust the size and color as needed */
+ }
 
-.header-flx {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
 
-}
+ .triangle {
+     position: absolute;
+     top: 100px;
+     right: 0;
+     width: 0;
+     height: 0;
+     border-left: 200vh solid transparent;
+     border-bottom: 150vh solid #E38C95;
+     z-index: -1;
+ }
 
-.index-menu {
-    position: absolute;
-    float: right;
-}
+ .sp-tag {
+     /* Layout Properties */
+     top: 1166px;
+     left: 289px;
+     width: 1342px;
+     height: 122px;
+     /* UI Properties */
+     color: var(--unnamed-color-c1cf94);
+     text-align: center;
+     font: normal normal bold 53px/61px Arial Rounded MT;
+     letter-spacing: 0px;
+     color: #C1CF94;
+     opacity: 1;
+ }
 
-.header-mb {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+ .sections {
+     display: flex;
+     flex-direction: row;
+ }
 
-.header .div {
-    float: right;
-    top: 30;
-}
+ .hc-circle {
+     /* Layout Properties */
+     top: 1349px;
+     left: 176px;
+     width: 435px;
+     height: 435px;
+     /* UI Properties */
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+     opacity: 1;
+ }
 
-.hd-item {
-    padding: 5%;
-    font-size: 200%;
-}
+ .hc-title {
+     /* Layout Properties */
+     top: 1468px;
+     left: 203px;
+     width: 382px;
+     height: 63px;
+     /* UI Properties */
+     color: var(--unnamed-color-707070);
+     text-align: left;
+     font: normal normal normal 53px/63px Arboria;
+     letter-spacing: 0px;
+     color: #707070;
+     opacity: 1;
+ }
 
-.titledv {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+ .hc-img {
+     /* Layout Properties */
+     top: 1506px;
+     left: 68px;
+     width: 624px;
+     height: 351px;
+     /* UI Properties */
+     background: transparent url('img/full-english.png') 0% 0% no-repeat padding-box;
+     opacity: 1;
+ }
 
-}
+ .e-circle {
+     /* Layout Properties */
+     top: 1349px;
+     left: 743px;
+     width: 435px;
+     height: 435px;
+     /* UI Properties */
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+     opacity: 1;
+ }
 
-.br {
-    color: var(--pinky);
-}
+ .e-title {
+     /* Layout Properties */
+     top: 1465px;
+     left: 827px;
+     width: 267px;
+     height: 66px;
+     /* UI Properties */
+     color: var(--unnamed-color-707070);
+     text-align: left;
+     font: normal normal normal 55px/66px Arboria;
+     letter-spacing: 0px;
+     color: #707070;
+     opacity: 1;
+ }
 
-.ecipes {
-    color: var(--lightgrey);
-}
+ .e-img {
+     /* Layout Properties */
+     top: 1500px;
+     left: 585px;
+     width: 692px;
+     height: 389px;
+     /* UI Properties */
+     background: transparent url('img/fruit.png') 0% 0% no-repeat padding-box;
+     opacity: 1;
+ }
