@@ -24,6 +24,7 @@
      justify-content: flex-end;
      align-items: center;
 
+
  }
 
 
@@ -39,7 +40,8 @@
      top: 173px;
      left: 607px;
      width: auto;
-     height: 85px;
+     height: 38px;
+     padding: 4px;
      /* UI Properties */
      text-align: left;
      font: normal normal bold 146px/169px Arial Rounded MT;
@@ -75,12 +77,12 @@
      /* Layout Properties */
      top: 0px;
      left: px;
-     width: 100px;
+     width: 115px;
      height: 85px;
      /* UI Properties */
      color: var(--unnamed-color-e38c95);
      text-align: center;
-     font: normal normal bold 73px/85px Arial Rounded MT;
+     font: normal normal bold 85px/85px Arial Rounded MT;
      letter-spacing: 0px;
      color: #E38C95;
  }
@@ -94,7 +96,7 @@
      /* UI Properties */
      color: var(--unnamed-color-707070);
      text-align: center;
-     font: normal normal bold 73px/85px Arial Rounded MT;
+     font: normal normal bold 85px/85px Arial Rounded MT;
      letter-spacing: 0px;
      color: #707070;
  }
@@ -108,7 +110,7 @@
      /* UI Properties */
      color: var(--unnamed-color-707070);
      text-align: left;
-     font: normal normal normal 27px/33px Arboria;
+     font: normal normal normal 40px/66px Arboria;
      letter-spacing: 0px;
      color: #707070;
      opacity: 1;
@@ -117,11 +119,12 @@
  .ind-copy {
      top: 480px;
      left: 135px;
-     width: 605px;
-     height: 366px;
+     width: 435px;
+     height: 450px;
      color: var(--unnamed-color-707070);
      text-align: left;
-     font: normal normal normal 24px/26px Arboria;
+     font: normal normal normal 40px/35px Arboria;
+
      letter-spacing: 0px;
      color: #707070;
      opacity: 1;
